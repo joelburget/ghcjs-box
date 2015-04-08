@@ -1,15 +1,15 @@
 [submodule "ghcjs"]
 	path = ghcjs
-	url = ./ghcjs
+	url = git@github.com:ghcjs/ghcjs.git
 [submodule "ghcjs-prim"]
 	path = ghcjs-prim
-	url = ./ghcjs-prim
+	url = git@github.com:ghcjs/ghcjs-prim.git
 [submodule "material-ui"]
 	path = material-ui
-	url = ./material-ui
+	url = git@github.com:joelburget/material-ui-hs.git
 [submodule "pigment"]
 	path = pigment
-	url = ./pigment
+	url = git@github.com:joelburget/pigment.git
 [submodule "react-haskell"]
 	path = react-haskell
-	url = ./react-haskell
+	url = git@github.com:joelburget/react-haskell.git
