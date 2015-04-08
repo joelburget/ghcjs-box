@@ -1,0 +1,15 @@
+[submodule "ghcjs"]
+	path = ghcjs
+	url = ./ghcjs
+[submodule "ghcjs-prim"]
+	path = ghcjs-prim
+	url = ./ghcjs-prim
+[submodule "material-ui"]
+	path = material-ui
+	url = ./material-ui
+[submodule "pigment"]
+	path = pigment
+	url = ./pigment
+[submodule "react-haskell"]
+	path = react-haskell
+	url = ./react-haskell
