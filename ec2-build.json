@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "aws_access_key": "",
+        "aws_secret_key": ""
+    },
+    "builders": [{
+        "type": "virtualbox-ovf",
+        "source_path": "ghcjs.ovf",
+        "ssh_username": "packer",
+        "ssh_password": "packer",
+        "ssh_wait_timeout": "30s",
+        "shutdown_command": "sudo -S shutdown -P now"
+    }],
+    "provisioners": [{
+        "type": "shell",
+        "script": "provision.sh"
+    }],
+    "push": {
+        "name": "joel/ghcjs"
+    },
+    "post-processors": [{
+        "type": "atlas",
+        "artifact": "joel/ghcjs",
+        "artifact_type": "XXX"
+    }]
+}
