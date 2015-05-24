@@ -1,7 +1,7 @@
 # GHCJS box
 
 This provides a [vagrant](https://www.vagrantup.com/) box with a pre-booted
-ghcjs running withghc 7.10.1.
+ghcjs running with ghc 7.10.1.
 
 ## Getting Started
 
