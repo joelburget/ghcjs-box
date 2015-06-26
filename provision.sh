@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO install hscolour, hlint, lessc
+
 export PATH=/home/vagrant/.cabal/bin:/home/vagrant/bin$PATH
 
 # install node
@@ -9,6 +11,9 @@ cd bin
 ln -s ../node-v0.12.2-linux-x64/bin/node node
 ln -s ../node-v0.12.2-linux-x64/bin/npm npm
 cd
+
+# install less stuff
+npm install -g less less-plugin-autoprefix
 
 # install system dependencies (llvm requires special care)
 /etc/apt/sources.list <<EOF
